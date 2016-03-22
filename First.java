@@ -12,7 +12,6 @@ class First
 	public static void main(String s[])throws IOException
 	{
 		Document doc=Jsoup.connect("http://www.javatpoint.com").get();
-
 		// Elements link=(Elements)doc.select("img[src]");
 		// Elements imagelink=doc.getElementsByTag("img");
 		// Elements imagelink=doc.getElementsByAttribute("src");
